@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c2f91b-cf02-49ef-b7cd-4e18ef64342b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/prac_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "demo",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/web-h-042/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
@@ -117,7 +116,7 @@
       <workItem from="1767350398809" duration="170000" />
       <workItem from="1767350588283" duration="3356000" />
       <workItem from="1767353976476" duration="5695000" />
-      <workItem from="1767595017942" duration="667000" />
+      <workItem from="1767595017942" duration="897000" />
     </task>
     <servers />
   </component>
@@ -159,6 +158,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$prac_1.coverage" NAME="prac_1 Coverage Results" MODIFIED="1767595492526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$prac_1.coverage" NAME="prac_1 Coverage Results" MODIFIED="1767595687584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
