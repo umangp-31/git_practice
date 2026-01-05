@@ -6,4 +6,4 @@ try:
     else:
         print("Odd number")
 except Exception as e:
-    print(e)
+    print("Something went wrong")
