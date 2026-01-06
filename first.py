@@ -2,16 +2,16 @@ import math
 import random
 import time
 
-def add(a, b):
+def add(a=30, b=45):
     return a + b
 
 
 def subtract(a, b):
-    return a - b
+    return f"Substract is :{a - b}"
 
 
 def multiply(a, b):
-    return a * b
+    return f"Multiplication is :{a * b}"
 
 
 def divide(a, b):
@@ -24,8 +24,8 @@ def reverse_string(text):
     return text[::-1]
 
 
-def capitalize_words(sentence):
-    return " ".join(word.capitalize() for word in sentence.split())
+def capi_words(sentence):
+    print( " ".join(word.capitalize() for word in sentence.split()))
 
 
 def count_vowels(text):
@@ -95,7 +95,7 @@ def generate_random_numbers(count, start=1, end=100):
 
 
 def generate_random_string(length):
-    chars = "abcdefghijklmnopqrstuvwxyz"
+    chars = "aaaaaaaaaaaaaaaa"
     result = ""
     for _ in range(length):
         result += random.choice(chars)
@@ -108,7 +108,7 @@ def calculate_average(numbers):
     return sum(numbers) / len(numbers)
 
 
-def calculate_sum(numbers):
+def calculate_sum(numbers=0):
     total = 0
     for num in numbers:
         total += num
@@ -168,7 +168,7 @@ def main():
 
     process_data()
     process_strings()
-
+    capi_words("Hello World")
     print("Factorial of 5:", factorial(5))
     print("Is 10 Even?", is_even(10))
     print("Is 17 Prime?", is_prime(17))
