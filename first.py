@@ -2,16 +2,17 @@ import math
 import random
 import time
 
-def add(a, b):
+def add(a=30, b=45):
     return a + b
 
 
-def subtract(a=10, b=2):
-    return a - b
+def subtract(a, b):
+    print( a - b)
+    return f"Substract is :{a - b}"
 
 
 def multiply(a, b):
-    return a * b
+    return f"Multiplication is :{a * b}"
 
 
 def divide(a, b):
@@ -52,7 +53,7 @@ def is_prime(number):
 
 def factorial(n):
     if n < 0:
-        return "Enter valid number"
+        return None
     result = 1
     for i in range(1, n + 1):
         result *= i
@@ -102,7 +103,13 @@ def generate_random_string(length):
     return result
 
 
-def calculate_sum(numbers):
+def calculate_average(numbers):
+    if not numbers:
+        return 0
+    return sum(numbers) / len(numbers)
+
+
+def calculate_sum(numbers=0):
     total = 0
     for num in numbers:
         total += num
@@ -138,6 +145,9 @@ def delay(seconds):
 def process_data():
     numbers = generate_random_numbers(10)
     print("Numbers:", numbers)
+
+    avg = calculate_average(numbers)
+    print("Average:", avg)
 
     primes = [n for n in numbers if is_prime(n)]
     print("Prime Numbers:", primes)
