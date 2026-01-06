@@ -6,7 +6,7 @@ def add(a, b):
     return a + b
 
 
-def subtract(a, b):
+def subtract(a=10, b=2):
     return a - b
 
 
@@ -52,7 +52,7 @@ def is_prime(number):
 
 def factorial(n):
     if n < 0:
-        return None
+        return "Enter valid number"
     result = 1
     for i in range(1, n + 1):
         result *= i
@@ -95,17 +95,11 @@ def generate_random_numbers(count, start=1, end=100):
 
 
 def generate_random_string(length):
-    chars = "abcdefghijklmnopqrstuvwxyz"
+    chars = "axdghnesrtvdsxCDbgjfgn sdfgba"
     result = ""
     for _ in range(length):
         result += random.choice(chars)
     return result
-
-
-def calculate_average(numbers):
-    if not numbers:
-        return 0
-    return sum(numbers) / len(numbers)
 
 
 def calculate_sum(numbers):
@@ -144,9 +138,6 @@ def delay(seconds):
 def process_data():
     numbers = generate_random_numbers(10)
     print("Numbers:", numbers)
-
-    avg = calculate_average(numbers)
-    print("Average:", avg)
 
     primes = [n for n in numbers if is_prime(n)]
     print("Prime Numbers:", primes)
