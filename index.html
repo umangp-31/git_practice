@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ================================================= -->
+    <!-- BASIC META TAGS                                  -->
+    <!-- ================================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large HTML Demo Page</title>
+
+    <!-- ================================================= -->
+    <!-- CSS RESET                                        -->
+    <!-- ================================================= -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 6px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================================================= -->
+<!-- HEADER                                            -->
+<!-- ================================================= -->
+<header>
+    <h1>My Large HTML Project</h1>
+    <p>A demo index.html file with many sections</p>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#cards">Cards</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================================================= -->
+<!-- HERO SECTION                                      -->
+<!-- ================================================= -->
+<section id="hero">
+    <h2>Hero Section</h2>
+    <p>
+        This is a hero section. It usually contains a headline,
+        description, and a call-to-action button.
+    </p>
+    <button>Get Started</button>
+</section>
+
+<!-- ================================================= -->
+<!-- FEATURES SECTION                                  -->
+<!-- ================================================= -->
+<section id="features">
+    <h2>Features</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Feature One</h3>
+            <p>Description for feature one.</p>
+        </div>
+
+        <div class="card">
+            <h3>Feature Two</h3>
+            <p>Description for feature two.</p>
+        </div>
+
+        <div class="card">
+            <h3>Feature Three</h3>
+            <p>Description for feature three.</p>
+        </div>
+
+        <div class="card">
+            <h3>Feature Four</h3>
+            <p>Description for feature four.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================================================= -->
+<!-- CARD SECTION                                      -->
+<!-- ================================================= -->
+<section id="cards">
+    <h2>Content Cards</h2>
+
+    <!-- CARD 1 -->
+    <div class="card">
+        <h3>Card Title 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+        <h3>Card Title 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+        <h3>Card Title 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card">
+        <h3>Card Title 4</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</section>
+
+<!-- ================================================= -->
+<!-- TABLE SECTION                                     -->
+<!-- ================================================= -->
+<section id="table">
+    <h2>Sample Table</h2>
+
+    <table border="1" width="100%" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>25</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>30</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>Tester</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ================================================= -->
+<!-- FORM SECTION                                      -->
+<!-- ================================================= -->
+<section id="form">
+    <h2>Contact Form</h2>
+
+    <form>
+        <label>Name</label><br>
+        <input type="text"><br><br>
+
+        <label>Email</label><br>
+        <input type="email"><br><br>
+
+        <label>Message</label><br>
+        <textarea rows="5"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- ================================================= -->
+<!-- EXTRA SECTIONS (FILLER FOR LARGE FILE)             -->
+<!-- ================================================= -->
+<section>
+    <h2>Extra Section A</h2>
+    <p>This section exists to increase file length.</p>
+</section>
+
+<section>
+    <h2>Extra Section B</h2>
+    <p>This section exists to increase file length.</p>
+</section>
+
+<section>
+    <h2>Extra Section C</h2>
+    <p>This section exists to increase file length.</p>
+</section>
+
+<section>
+    <h2>Extra Section D</h2>
+    <p>This section exists to increase file length.</p>
+</section>
+
+<section>
+    <h2>Extra Section E</h2>
+    <p>This section exists to increase file length.</p>
+</section>
+
+<!-- ================================================= -->
+<!-- FOOTER                                            -->
+<!-- ================================================= -->
+<footer id="footer">
+    <p>&copy; 2026 My Large HTML Project</p>
+    <p>All rights reserved.</p>
+</footer>
+
+<!-- ================================================= -->
+<!-- END OF FILE                                       -->
+<!-- ================================================= -->
+
+</body>
+</html>
